@@ -1,0 +1,9 @@
+$primary: #00a09f;
+$theme-colors: (
+  "primary": $primary,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+h2{
+  color: #00a09f;
+}
