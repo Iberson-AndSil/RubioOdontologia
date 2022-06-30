@@ -1,7 +1,9 @@
 body{
     background-color: #aaaaaa;
 }
-
+.bg-tematica{
+    background-color: #00a09f;
+}
 
 
 
@@ -56,7 +58,7 @@ body{
 .title-float{
 	position:fixed;
     width:130px;
-    top:100px;
+    top:95px;
     background:#646464;
 	opacity: 0.5;
     color:#FFF;
@@ -161,8 +163,9 @@ body{
         margin-top: 70px;
     }
     .title-float{
-        width: 80px;
+        width: 100px;
         top: 80px;
+        font-size: 20px;
     }
     .format-text{
         font-size: 90%;
@@ -170,6 +173,12 @@ body{
 }
 
 @media (max-width: 40em){
+
+    .title-float{
+        width: 80px;
+        font-size: 15px;
+        top: 78px;
+    }
 
     .title{
         font-size:20px;
