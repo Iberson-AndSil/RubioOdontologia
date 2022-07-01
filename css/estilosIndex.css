@@ -105,8 +105,10 @@ body{
 /* ////////////////////////////////////////// */
 /* //////////////tarjetas de carrusel         */
 /* ////////////////////////////////////////// */
-/* .color-fondo{
-    background: repeating-linear-gradient(-45deg, #00a09f, #00a09f 5px, white 5px, white 10px);
+.color-fondo{
+    background: repeating-linear-gradient(-45deg, #00a09f, #00a09f 8px, white 8px, white 10px);
+    border:solid #00a09f;
+
 }
 .format-target-carousel{
     border: solid #00a09f;
@@ -125,7 +127,7 @@ body{
     margin-left: 33%;
     margin-top: 10px;
     border: solid #00a09f;
-} */
+}
 /* ////////////////////////////////////////// */
 
 
@@ -134,21 +136,33 @@ body{
 /* ////////////////////////////////////////// */
 /* //////////////Responsive index             */
 /* ////////////////////////////////////////// */
-/* @media (max-width:80em){
+
+/*1166 */
+@media (max-width:80em){
     .format-target-carousel{
         width: 270px;   
-        font-size: 10px;
-    }
-    .format-target-carousel h5{
         font-size: 15px;
     }
-    .image-carousel{
-        width: 60px;
-        height: 60px;
-        margin-left: 15%;
+    .format-target-carousel h5{
+        font-size: 20px;
     }
-} */
+    .image-carousel{
+        width: 80px;
+        height: 80px;
+        margin-left: 33%;
+    }
+} 
+@media (max-width:70em){
+    .format-target-carousel{
+        width: 230px;   
+        font-size: 12px;
+    }
+    .format-target-carousel h5{
+        font-size: 18px;
+    }
+} 
 
+/* 960px */
 @media (max-width: 60em){
     .logo{
         border-radius: 100%;
@@ -171,9 +185,24 @@ body{
     .format-text{
         font-size: 90%;
     } 
+    /* carousel */
+    .format-target-carousel{
+        width: 180px;   
+        font-size: 10px;
+    }
+    .format-target-carousel h5{
+        font-size: 13px;
+    }
+    .image-carousel{
+        width: 70px;
+        height: 70px;
+        margin-left: 33%;
+    }
 }
 
-@media (max-width: 40em){
+
+/* 640px */
+@media (max-width: 36em){
 
     .title-float{
         width: 80px;
@@ -194,6 +223,20 @@ body{
     }
     .presentation{
         font-size: 12px;
+    }
+    /* carousel */
+    /* ************************************** */
+    .format-target-carousel{
+        width: 150px;   
+        font-size: 9px;
+    }
+    .format-target-carousel h5{
+        font-size: 12px;
+    }
+    .image-carousel{
+        width: 60px;
+        height: 60px;
+        margin-left: 30%;
     }
 }
 /* ////////////////////////////////////////// */
