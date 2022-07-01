@@ -42,7 +42,7 @@ body{
 	background-size:cover;
 	background-position: center;
 	margin-bottom: 20px;
-	height: 600px;
+	height: 550px;
 	width: auto;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -188,7 +188,7 @@ body{
         margin-left: auto;
         margin-right: auto;
         position: absolute;
-        left: 12%;
+        left: 18%;
         top: 50%;
         transform: translateY(-50%);
     }
