@@ -108,7 +108,7 @@ body{
 .color-fondo{
     background: repeating-linear-gradient(-45deg, #00a09f, #00a09f 8px, white 8px, white 10px);
     border:solid #00a09f;
-
+    width: 700px;
 }
 .format-target-carousel{
     border: solid #00a09f;
@@ -139,6 +139,9 @@ body{
 
 /*1166 */
 @media (max-width:80em){
+    .color-fondo{
+        width: 600px;
+    }
     .format-target-carousel{
         width: 270px;   
         font-size: 15px;
@@ -159,6 +162,9 @@ body{
     }
     .format-target-carousel h5{
         font-size: 18px;
+    }
+    .color-fondo{
+        width: 510px;
     }
 } 
 
@@ -187,19 +193,21 @@ body{
     } 
     /* carousel */
     .format-target-carousel{
-        width: 180px;   
-        font-size: 10px;
+        width: 165px;   
+        font-size: 9px;
     }
     .format-target-carousel h5{
-        font-size: 13px;
+        font-size: 12px;
     }
     .image-carousel{
-        width: 70px;
-        height: 70px;
-        margin-left: 33%;
+        width: 60px;
+        height: 60px;
+        margin-left: 30%;
+    }
+    .color-fondo{
+        width: 380px;
     }
 }
-
 
 /* 640px */
 @media (max-width: 36em){
@@ -225,19 +233,19 @@ body{
         font-size: 12px;
     }
     /* carousel */
-    /* ************************************** */
     .format-target-carousel{
-        width: 150px;   
+        width: 160px;   
         font-size: 9px;
     }
     .format-target-carousel h5{
         font-size: 12px;
     }
     .image-carousel{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         margin-left: 30%;
     }
+    
 }
 /* ////////////////////////////////////////// */
 
