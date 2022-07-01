@@ -95,6 +95,7 @@ body{
     margin-left: 10%;
     width: 400px;
     border-radius: 20px;
+    display: inline-block;
 }
 /* ////////////////////////////////////////// */
 
@@ -179,13 +180,17 @@ body{
         font-size: 15px;
         top: 78px;
     }
-
     .title{
         font-size:20px;
     }
     .position-personality{
-        margin-top: 15%;
         width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 12%;
+        top: 50%;
+        transform: translateY(-50%);
     }
     .presentation{
         font-size: 12px;
