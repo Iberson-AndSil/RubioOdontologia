@@ -1,5 +1,5 @@
 body{
-    background-color: #aaaaaa;
+    background-color: grey;
 }
 .bg-tematica{
     background-color: #00a09f;
@@ -82,12 +82,16 @@ body{
 
 
 
+.text-size-title{
+    font-size: 35px;
+}
+
 /* ////////////////////////////////////////// */
 /* ////////////Presentacion del index         */
 /* ////////////////////////////////////////// */
 .title{
     font-family: 'Titan One', cursive;
-    font-size: 35px;
+    
     border-bottom: solid;
     text-shadow: 2px 2px 2px #828282;
 }
@@ -113,7 +117,7 @@ body{
 /* //////////////tarjetas de carrusel         */
 /* ////////////////////////////////////////// */
 .color-fondo{
-    background: repeating-linear-gradient(-45deg, #00a09f, #00a09f 8px, white 8px, white 10px);
+    background: repeating-linear-gradient(-45deg, #00a09f, #00a09f 1px, white 1px, white 10px);
     border:solid #00a09f;
     width: 700px;
     border-radius: 20px;
@@ -201,9 +205,12 @@ body{
         top: 80px;
         font-size: 20px;
     }
-    .format-text{
-        font-size: 90%;
-    } 
+    .text-size-title{
+        font-size: 30px;
+    }
+    .presentation{
+        font-size: 15px;
+    }
     /* carousel */
     .format-target-carousel{
         width: 165px;   
