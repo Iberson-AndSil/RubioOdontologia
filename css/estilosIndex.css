@@ -87,7 +87,6 @@ body{
 .presentation{
     font-family: 'PT Serif', serif;
     font-size: 18px;
-    
 }
 .position-personality{
     box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
@@ -123,6 +122,9 @@ body{
     border: solid #00a09f;
 }
 /* ////////////////////////////////////////// */
+
+
+/* ////////tamaño de content - sedes///////// */
 
 
 /* ////////imagen de conultorio-index//////// */
@@ -241,6 +243,9 @@ body{
     .format-target-carousel{    /*tamaño de la tarjeta*/
         width: 160px;   
         font-size: 9px;
+    }
+    .text-size-title{
+        font-size: 22px;
     }
     .text-size-sub-title{
         font-size: 12px;
