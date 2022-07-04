@@ -1,0 +1,15 @@
+.tocache-image-carousel-1{
+    background-image: url("/images/carrusel-tocache-1.jpg");
+}
+.style-image-carousel{
+    background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	margin-bottom: 20px;
+}
+.tocache-image-carousel-2{
+    background-image: url("/images/carrusel-tocache-2.jpg");
+}
+.tocache-image-carousel-3{
+    background-image: url("/images/carrusel-tocache-3.jpg");
+}

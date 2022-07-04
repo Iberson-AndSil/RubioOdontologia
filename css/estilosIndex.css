@@ -2,7 +2,27 @@ body{
     background-color: grey;
 }
 .bg-tematica{
-    background-color: #00a09f;
+    background-color: #009caa;
+}
+
+.text-sombra{
+	text-shadow: 2px 2px 2px white;
+}
+
+.image-carousel-1{
+    background-image: url("/images/carrusel-tocache-1.jpg");
+}
+.image-carousel-2{
+    background-image: url("/images/carrusel-tocache-2.jpg");
+}
+.image-carousel-3{
+    background-image: url("/images/carrusel-tocache-3.jpg");
+}
+.style-image-carousel{
+    background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	margin-bottom: 20px;
 }
 
 
@@ -18,7 +38,7 @@ body{
 /* //////////boton personalizado///////////// */
 .btn-personality{
     
-    background-color: #00a09f;
+    background-color: #009caa;
     margin: 10px;
     color: #FFF;
 }
@@ -36,7 +56,7 @@ body{
 /* ///////Formato de imagen de inicio//////// */
 .image-start {
     margin-top: 90px;
-	background-image:url('/images/cons.jpg');
+	background-image:url('/images/portada.png');
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
@@ -101,13 +121,13 @@ body{
 
 /* //////formatos de targetas-carousel/////// */
 .color-fondo{
-    background: repeating-linear-gradient(-45deg, #00a09f, #00a09f 1px, white 1px, white 10px);
-    border:solid #00a09f;
+    background: repeating-linear-gradient(-45deg, #009caa, #009caa 1px, white 1px, white 10px);
+    border:solid #009caa;
     width: 700px;   /*tamaño de  la tarjeta*/
     border-radius: 20px;
 }
 .format-target-carousel{
-    border: solid #00a09f;
+    border: solid #009caa;
     width: 300px;   
     font-size: 15px;
     margin-top: 20px;
@@ -119,7 +139,7 @@ body{
     border-radius: 50%;
     margin-left: 33%;
     margin-top: 10px;
-    border: solid #00a09f;
+    border: solid #009caa;
 }
 /* ////////////////////////////////////////// */
 
@@ -131,14 +151,14 @@ body{
 .image-consultorio{
     margin-top: 10px;
     width: 100%;
-    border: #00a09f solid;
+    border: #009caa solid;
 }
 /* ////////////////////////////////////////// */
 
 
 .format-icon{
     font-size: 25px;
-	color:#00a09f;
+	color:#009caa;
 }
 .size-footer{
     height: 200px;
