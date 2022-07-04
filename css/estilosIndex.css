@@ -56,7 +56,7 @@ body{
 /* ///////Formato de imagen de inicio//////// */
 .image-start {
     margin-top: 90px;
-	background-image:url('/images/portada.png');
+	background-image:url('/images/cons.jpg');
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
