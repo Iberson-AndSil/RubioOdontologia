@@ -136,6 +136,11 @@ body{
 /* ////////////////////////////////////////// */
 
 
+.format-icon{
+    font-size: 30px;
+	color:#00a09f;
+}
+
 /* ///////////Responsive index/////////////// */
 /*1166 */
 @media (max-width:80em){
