@@ -137,8 +137,16 @@ body{
 
 
 .format-icon{
-    font-size: 30px;
+    font-size: 25px;
 	color:#00a09f;
+}
+.size-footer{
+    height: 200px;
+}
+.style-content-footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ///////////Responsive index/////////////// */
@@ -201,6 +209,11 @@ body{
     .presentation{
         font-size: 15px;
     }
+    .format-icon{
+        font-size: 20px;
+    }
+
+
     /* carousel */
     .format-target-carousel{    /*tamaño de la tarjeta*/
         width: 165px;   
@@ -244,6 +257,10 @@ body{
     .presentation{
         font-size: 12px;
     }
+    .format-icon{
+        font-size: 15px;
+    }
+
     /* carousel */
     .format-target-carousel{    /*tamaño de la tarjeta*/
         width: 160px;   
