@@ -90,7 +90,7 @@ body{
 
 /* /////////tamaño de los títulos/////////// */
 .text-size-title{
-    font-size: 35px;
+    font-size: 45px;
 }
 .text-size-sub-title{
     font-size: 20px;
@@ -224,7 +224,7 @@ body{
         font-size: 20px;
     }
     .text-size-title{
-        font-size: 30px;
+        font-size: 35px;
     }
     .presentation{
         font-size: 15px;
@@ -284,13 +284,13 @@ body{
     /* carousel */
     .format-target-carousel{    /*tamaño de la tarjeta*/
         width: 160px;   
-        font-size: 9px;
+        font-size: 12px;
     }
     .text-size-title{
-        font-size: 22px;
+        font-size: 28px;
     }
     .text-size-sub-title{
-        font-size: 12px;
+        font-size: 15px;
     }
     .image-carousel{
         width: 50px;
