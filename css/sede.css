@@ -22,14 +22,14 @@
 
 @media (max-width: 62em){
     .imagenes-presentación{
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
     }
     .tamanio-subtitulo{
-        font-size: 23px;
+        font-size: 20px;
     }
     .tamanio-contenido{
-        font-size: 15px;
+        font-size: 12px;
     }
     .tamanio-titulo{
         font-size: 40px;
