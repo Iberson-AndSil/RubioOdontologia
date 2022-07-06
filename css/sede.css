@@ -51,6 +51,10 @@
 	background-color: #009caa;
 }
 
+.alienacion-vertical{
+    padding-top: 6%;
+}
+
 @media (max-width: 62em){
     .imagenes-presentación{
         width: 80px;
@@ -63,5 +67,8 @@
     .carousel-tamanio{
         width: 340px;
         margin-bottom: 10px;
+    }
+    .alienacion-vertical{
+        padding-top: 0;
     }
 }
