@@ -55,6 +55,16 @@
     padding-top: 5%;
 }
 
+.border-presentaciones{
+    padding-top: 10px;
+    width: 370px;
+    background-color: white;
+    border-radius: 50px;
+    border-bottom: 5px solid #009caa;
+    border-right: 5px solid #009caa;
+    margin-bottom: 30px;
+}
+
 @media (max-width: 62em){
     .imagenes-presentación{
         width: 80px;
@@ -74,5 +84,14 @@
     }
     .salto-margin{
         margin-top: 40px;
+    }
+    .border-presentaciones{
+        padding-top: 10px;
+        width: 340px;
+        background-color: white;
+        border-radius: 50px;
+        border-bottom: 5px solid #009caa;
+        border-right: 5px solid #009caa;
+        margin-bottom: 30px;
     }
 }
