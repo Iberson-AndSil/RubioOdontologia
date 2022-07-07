@@ -4,7 +4,7 @@
 }
 
 .carousel-tamanio{
-    width: 500px;
+    width: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -33,7 +33,7 @@
 }
 
 .formulario{
-    width: 450px;
+    width: 400px;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
 	border-radius: 50px;
     background-color: white;
@@ -52,7 +52,7 @@
 }
 
 .alienacion-vertical{
-    padding-top: 6%;
+    padding-top: 5%;
 }
 
 @media (max-width: 62em){
@@ -71,5 +71,8 @@
     }
     .alienacion-vertical{
         padding-top: 0;
+    }
+    .facebook{
+        left: 10%;
     }
 }
