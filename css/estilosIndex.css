@@ -97,6 +97,7 @@ body{
 
 /* /////////////titulo flotante////////////// */
 .title-float{
+    position: fixed;
     width:130px;
     top:100px;
     background:rgba(5, 7, 12, 0.20);
@@ -153,19 +154,6 @@ body{
     align-items: center;
 }
 
-/* ///////////Responsive index/////////////// */
-/*1166 */
-@media (max-width:80em){
-    .text-size-sub-title{
-        font-size: 20px;
-    }
-} 
-@media (max-width:70em){
-    .text-size-sub-title{
-        font-size: 18px;
-    }
-} 
-
 /* 960px */
 @media (max-width: 60em){
     .logo{
@@ -190,9 +178,6 @@ body{
     }
     .text-size-title{
         font-size: 35px;
-    }
-    .presentation{
-        font-size: 15px;
     }
     .format-icon{
         font-size: 20px;
@@ -222,9 +207,6 @@ body{
         left: 18%;
         top: 50%;
         transform: translateY(-50%);
-    }
-    .presentation{
-        font-size: 12px;
     }
     .format-icon{
         font-size: 15px;
