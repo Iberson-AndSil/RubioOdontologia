@@ -1,6 +1,7 @@
 body{
-    background-color: #929292;
+    background:url("/images/fondo.png");
 }
+
 .bg-tematica{
     background-color: #009caa;
 }
@@ -59,6 +60,11 @@ body{
 	margin-bottom: 20px;
 }
 
+.image-ini{
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/fondoinicio.jpg") no-repeat center center fixed;
+	background-size:cover;
+}
 
 /* //////////////////logo//////////////////// */
 .logo{
@@ -87,20 +93,16 @@ body{
 /* ////////////////////////////////////////// */
 
 
-/* ////////////////////////////////////////// */
-
 
 /* /////////////titulo flotante////////////// */
 .title-float{
-	position:fixed;
     width:130px;
-    top:95px;
-    background:#646464;
-	opacity: 0.5;
+    top:100px;
+    background:rgba(5, 7, 12, 0.20);
     color:#FFF;
 	border-end-end-radius: 25px;
 	border-top-right-radius: 25px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    /* box-shadow: 0px 1px 10px rgba(0,0,0,0.3); */
 }
 .format-title-float{
     font-size: 25px;
@@ -147,13 +149,13 @@ body{
     width: 700px;   
     border-radius: 20px;
 } */
-.format-target-carousel{
+/* .format-target-carousel{
     border: solid #009caa;
     width: 300px;   
     font-size: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+} */
 /* .image-carousel{
     width: 100px;
     height: 100px;
@@ -193,32 +195,13 @@ body{
 /* ///////////Responsive index/////////////// */
 /*1166 */
 @media (max-width:80em){
-    .color-fondo{   /*tamaño del contenedor de carousel*/
-        width: 600px;
-    }
-    .format-target-carousel{    /*tamaño de la tarjeta*/
-        width: 270px;   
-        font-size: 15px;
-    }
     .text-size-sub-title{
         font-size: 20px;
     }
-    .image-carousel{
-        width: 80px;
-        height: 80px;
-        margin-left: 33%;
-    }
 } 
 @media (max-width:70em){
-    .format-target-carousel{    /*tamaño de la tarjeta*/
-        width: 230px;   
-        font-size: 12px;
-    }
     .text-size-sub-title{
         font-size: 18px;
-    }
-    .color-fondo{   /*tamaño del contenedor de carousel*/
-        width: 510px;
     }
 } 
 
@@ -255,22 +238,6 @@ body{
     }
 
 
-    /* carousel */
-    .format-target-carousel{    /*tamaño de la tarjeta*/
-        width: 165px;   
-        font-size: 9px;
-    }
-    .text-size-sub-title{
-        font-size: 12px;
-    }
-    .image-carousel{
-        width: 60px;
-        height: 60px;
-        margin-left: 30%;
-    }
-    .color-fondo{   /*tamaño del contenedor de carousel*/
-        width: 380px;
-    }
 }
 
 /* 640px */
@@ -300,23 +267,6 @@ body{
     }
     .format-icon{
         font-size: 15px;
-    }
-
-    /* carousel */
-    .format-target-carousel{    /*tamaño de la tarjeta*/
-        width: 160px;   
-        font-size: 12px;
-    }
-    .text-size-title{
-        font-size: 28px;
-    }
-    .text-size-sub-title{
-        font-size: 15px;
-    }
-    .image-carousel{
-        width: 50px;
-        height: 50px;
-        margin-left: 30%;
     }
 }
 /* ////////////////////////////////////////// */
