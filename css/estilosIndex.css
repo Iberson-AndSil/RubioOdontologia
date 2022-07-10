@@ -140,6 +140,12 @@ body{
 }
 /* ////////////////////////////////////////// */
 
+.image1{
+    display: block;
+    margin: 0px auto;
+    border-radius: 50%;
+    border: #009caa solid;
+}
 
 .format-icon{
     font-size: 25px;
