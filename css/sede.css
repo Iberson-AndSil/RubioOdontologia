@@ -84,6 +84,12 @@
 }
 
 
+.image-fondo-formulario{
+    min-height: 90vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/imagen-fondo-contacto.jpg") no-repeat center center fixed;
+	background-size:cover;
+}
+
 .btn-wsp{
     position:fixed;
     width:60px;
@@ -107,11 +113,9 @@
 }
 
 .formulario{
-    width: 400px;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
     background-color: white;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .formatoInput{

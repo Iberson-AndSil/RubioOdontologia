@@ -136,6 +136,7 @@ body{
 .image-consultorio{
     margin-top: 10px;
     width: 100%;
+    border-radius:10px;
     border: #009caa solid;
 }
 /* ////////////////////////////////////////// */
@@ -160,6 +161,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 
 /* 960px */
 @media (max-width: 60em){
