@@ -167,12 +167,6 @@
         margin-top: 40px;
     }
     .border-presentaciones{
-        padding-top: 10px;
         width: 340px;
-        background-color: white;
-        border-radius: 50px;
-        border-bottom: 5px solid #009caa;
-        border-right: 5px solid #009caa;
-        margin-bottom: 30px;
     }
 }
