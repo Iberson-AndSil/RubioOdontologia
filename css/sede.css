@@ -56,6 +56,13 @@
     z-index: 2;
   }
 
+  .imagecomentarios{
+    display: block;
+    margin: 0px auto;
+    border-radius: 50%;
+    border: #009caa solid;
+  }
+
 /* ///////Formato de imagen de inicio//////// */
 /* .image-noticias{
 	background-image:url('/images/portada.png');
