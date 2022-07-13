@@ -1,21 +1,43 @@
 .opciones{
     height: 100px;
-    background:rgba(5, 7, 12, 0.70);
+    background-color: #009caa;
     color:#FFF;
 	border-radius: 50px;
+    border: solid white;
     padding: 3.5%;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
 }
+
+.opciones:hover{
+    background:rgba(5, 7, 12, 0.70);
+    color: white;
+}
+
  .margen-botones{
     margin-top: 12%;
  }
- @media (max-width: 80em){
+
+
+ .image-fondo-contacto{
+    min-height: 100%;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/fondoContacto.jpg") no-repeat center center fixed;
+	background-size:cover;
+}
+
+
+ @media (max-width: 86em){
     .margen-botones{
         margin-top: 20%;
+    }
+    .opciones{
+        font-size: 25px;
     }
  }
  @media (max-width: 50em){
     .margen-botones{
         margin-top: 35%;
+    }
+    .opciones{
+        font-size: 22px;
     }
  }
