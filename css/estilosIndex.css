@@ -97,7 +97,7 @@ body{
 /* /////////////titulo flotante////////////// */
 .title-float{
     position: fixed;
-    width:130px;
+    width:150px;
     top:100px;
     background:rgba(5, 7, 12, 0.20);
     color:#FFF;
@@ -178,7 +178,7 @@ body{
         margin-top: 70px;
     }
     .title-float{
-        width: 100px;
+        width: 120px;
         top: 80px;
     }
     .format-title-float{
@@ -198,7 +198,7 @@ body{
 @media (max-width: 36em){
 
     .title-float{
-        width: 80px;
+        width: 100px;
         top: 78px;
     }
     .format-title-float{
