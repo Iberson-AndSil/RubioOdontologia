@@ -1,3 +1,7 @@
 .fondo-contenido{
     background-color: #bdbdbd;
 }
+
+.margen-tarjeta{
+    margin: 10px;
+}
