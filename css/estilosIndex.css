@@ -12,13 +12,13 @@ body{
 }
 
 .image-carousel-1{
-    background-image: url("/images/carrusel-tocache-1.jpg");
+    background-image: url("/images//index/carrusel-inicio-1.jpg");
 }
 .image-carousel-2{
-    background-image: url("/images/carrusel-tocache-2.jpg");
+    background-image: url("/images/index/carrusel-inicio-2.jpg");
 }
 .image-carousel-3{
-    background-image: url("/images/carrusel-tocache-3.jpg");
+    background-image: url("/images/index/carrusel-inicio-3.jpg");
 }
 
 .image-carousel-1::before{
@@ -62,7 +62,7 @@ body{
 
 .image-ini{
     min-height: 100vh;
-    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/fondoinicio.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/index/fondoinicio.jpg") no-repeat center center fixed;
 	background-size:cover;
 }
 
