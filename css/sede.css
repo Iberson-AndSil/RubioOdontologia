@@ -3,22 +3,7 @@
     height: 140px;
 }
 
-/* ///////Formato de imagen de inicio//////// */
-.image-start {
-    margin-top: 80px;
-	background-image:url('/images/cons.jpg');
-	background-repeat: no-repeat;
-	background-size:cover;
-	background-position: center;
-	margin-bottom: 20px;
-	height: 550px;
-	width: auto;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-
-/* precentación con video */
+/* presentación con video */
 .hero{
     min-height: 90vh;
     position: relative;
