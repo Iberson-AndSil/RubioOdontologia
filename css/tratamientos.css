@@ -9,3 +9,29 @@
 .estilo{
     width: 100%;
 }
+
+/* estilo tratamientos */
+
+.image-ini{
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/index/fondoinicio.jpg") no-repeat center center fixed;
+	background-size:cover;
+}
+
+.estiloOscuro{
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5));
+}
+
+.color-menu-lateral{
+    background-color: #f7f7f7;
+}
+
+.color-menu-lateral:hover{
+    background-color: #1e6588;
+    color: #f7f7f7;
+}
+
+.color-fijo{
+    background-color: #1e6588;
+    color: #f7f7f7;
+}

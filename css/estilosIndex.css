@@ -70,7 +70,7 @@ body{
 .logo{
 	border-radius: 100%;
 	margin-left: 10px;
-    height: 70px;
+    height: 60px;
 }
 /* ////////////////////////////////////////// */
 
@@ -98,7 +98,7 @@ body{
 .title-float{
     position: fixed;
     width:150px;
-    top:100px;
+    top:90px;
     background:rgba(5, 7, 12, 0.20);
     color:#FFF;
 	border-end-end-radius: 25px;
