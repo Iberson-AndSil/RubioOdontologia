@@ -59,19 +59,6 @@
     margin-bottom: 20px;
 }
 
-
-.image-fondo-formulario{
-    min-height: 90vh;
-    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/source-tocache/fondo-contacto.jpg") no-repeat center center fixed;
-	background-size:cover;
-}
-
-.image-fondo-personal{
-    min-height: 80vh;
-    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/source-tocache/fondo-presentacion.jpg") no-repeat center center fixed;
-	background-size:cover;
-}
-
 .btn-wsp{
     position:fixed;
     width:60px;
