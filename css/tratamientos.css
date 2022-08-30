@@ -35,3 +35,18 @@
     background-color: #1e6588;
     color: #f7f7f7;
 }
+
+.image-ini{
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/tratamientos/fondo-tratamientos.jpg") no-repeat center center fixed;
+	background-size:cover;
+}
+
+/* @media (max-width: 36em){
+    .formato-targeta{
+
+
+
+    }
+}
+ */
