@@ -72,6 +72,12 @@ body{
 	background-size:cover;
 }
 
+.image-fondo-doctor{
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/index/presentacion-doc.jpg") no-repeat center center fixed;
+	background-size:cover;
+}
+
 /* //////////////////logo//////////////////// */
 .logo{
 	border-radius: 100%;
@@ -92,9 +98,15 @@ body{
 
 
 /* ///////texto del nav, función hover/////// */
+
+.size-text{
+    font-size: 13px;
+}
+
 .size-text font:hover{
     background-color: white;
     color: black;
+    
 }
 /* ////////////////////////////////////////// */
 
