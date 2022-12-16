@@ -73,7 +73,7 @@ body{
 }
 
 .image-fondo-doctor{
-    min-height: 100vh;
+    min-height: 80vh;
     background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("/images/index/presentacion-doc.jpg") no-repeat center center fixed;
 	background-size:cover;
 }
