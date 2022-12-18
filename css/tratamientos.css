@@ -42,6 +42,11 @@
 	background-size:cover;
 }
 
+.espacio{
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
 /* @media (max-width: 36em){
     .formato-targeta{
 
