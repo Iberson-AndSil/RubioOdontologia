@@ -47,6 +47,14 @@
     padding-bottom: 10px;
 }
 
+.margen{
+    padding: 1rem;
+}
+
+.padding{
+    padding: 1rem;
+}
+
 @media (max-width: 576px){
     .margen-pie{
         margin-bottom: 3rem;
