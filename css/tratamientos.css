@@ -47,11 +47,9 @@
     padding-bottom: 10px;
 }
 
-/* @media (max-width: 36em){
-    .formato-targeta{
-
-
-
+@media (max-width: 576px){
+    .margen-pie{
+        margin-bottom: 3rem;
     }
 }
- */
+
