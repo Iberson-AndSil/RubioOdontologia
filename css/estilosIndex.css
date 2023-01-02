@@ -105,9 +105,8 @@ body{
 }
 
 .size-text font:hover{
-    background-color: white;
-    color: black;
-    
+    background-color: #009caa;
+    color: black; 
 }
 /* ////////////////////////////////////////// */
 
@@ -180,6 +179,9 @@ body{
     align-items: center;
 }
 
+.bot:hover{
+    background-color: #009caa;
+}
 
 /* 960px */
 @media (max-width: 60em){
